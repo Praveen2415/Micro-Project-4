@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(100,114,153,1);
+        }
+        h1{
+            color: rgba(255,255,255,1);
+        }
+        #screen{
+            background-color: rgba(24,31,50,1);
+            height: 142.73px;
+            width: 536px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            text-align: right;
+            color: white;
+            font-size: 40px;
+        }
+        .container2 {
+            background-color: rgba(37,48,68,1);
+            height: 527px;
+            width: 536px;
+            border-radius: 12px;
+        }
+        button {
+            font-weight: 800px;
+            font-size: 30px;
+            width: 100px;
+            height: 60px;
+            border-radius: 12px;
+            background-color: rgba(234,217,219,1);
+            margin-top: 30px;
+            margin-left: 26px;
+            cursor: pointer;
+            font-size: 23px;
+            font-weight: 600px;
+            border-radius: 10px;
+        }
+        button#reset{
+            background-color:rgba(209,63,48,1);
+            width: 222.4px;
+            color: rgba(255,255,255,1);
+            font-weight: 800px;
+            size: 23.05px;
+            line-height: 27.5px;
+        }
+        #equal{
+            background-color: rgba(100,114,153,1);
+            width: 222.4px;
+            color: rgba(255,255,255,1);
+            font-weight: 800px;
+            size: 23.05px;
+            line-height: 27.5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <input  type="text" id="screen"  placeholder="0">
+        <div class="container2">
+            <button type="button" > 7 </button>
+            <button type="button"> 8 </button>
+            <button type="button"> 9 </button>
+            <button  class="del"  type="button"> DEL </button>
+            <button type="button" > 4 </button>
+            <button type="button"> 5 </button>
+            <button type="button"> 6 </button>
+            <button type="button"> + </button>
+            <button type="button"> 1 </button>
+            <button type="button"> 2 </button>
+            <button type="button"> 3 </button>
+            <button type="button"> - </button>
+            <button type="button"> . </button>
+            <button type="button"> 0 </button>
+            <button type="button"> / </button>
+            <button type="button"> x </button>
+            <button id="reset"> RESET </button>
+            <button id="equal" type="button"> = </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
